@@ -14,7 +14,7 @@ console.log(car);
 
 
 const sname = ["Mehfooz", "Abbas", "Hasni", "Ibrahim"];
-sname.splice(2, 0, "Abhishek", "Shukla");
+sname.slice(0, 1);
 console.log(sname);
 
 const bike = ["Honda", "Hero", "Bajaj", "Yamaha"];
